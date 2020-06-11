@@ -1,4 +1,7 @@
-## web-scarping-ds-jobs
+# web-scarping-ds-jobs
+
+![photo](https://st3.ning.com/topology/rest/1.0/file/get/1327832?profile=original)
+
 
 ### The Goal of the Analysis:
 After scraping data scientist job description from Indeed, I will preprocess job descriptions and generate job description
