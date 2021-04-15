@@ -4,12 +4,11 @@ The original data comes from IMDb movie, which is the most popular movie website
 
 Format of the data
 ------
-Out of all variables from the movies dataset, we used description and genre columns. We built a multi-label classification model that detects different genres of movies, which predicts a probability of each genre for each movie. We used movie descriptions as our input feature and genres as the class label outputs (20 genres).  
-5 of genres were dropped because each of their contribution is less than 1% of the class label. Our dataset has 20 class label outputs for each movie (each class will have 0 or 1 - e.g. present or not present) and 1 column for movie description. 
+Out of all variables from the movies dataset, we used description and genre columns. We built a multi-label classification model that detects different genres of movies, which predicts a probability of each genre for each movie. We used movie descriptions as our input feature and genres as the class label outputs (20 genres). Five of genres were dropped because each of their contribution is less than 1% of the class label. Our dataset has 20 class label outputs for each movie (each class will have 0 or 1 - e.g. present or not present) and 1 column for movie description. 
 
 Train/Dev/Test split 
 ------
-After preprocessing the data, we split the movies into Train/Dev/Test (80%/10%/10%). 
+After preprocessing the data, we split the dataset into Train/Dev/Test (80%/10%/10%). 
 Data| Shape|
 | ------ |:---:|
 Train | 66455 rows, 21 columns |
