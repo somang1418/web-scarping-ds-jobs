@@ -11,16 +11,32 @@ Example of the data
 
 Action| Adventure| Animation| Biography| Comedy| Crime| Drama| Family| Fantasy| History| Horror| Music| Musical| Mystery| Romance| Sci-Fi| Sport| Thriller| War| Western| description
 | ------------- |:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|
-1| 0| 0| 0| 0| 0| 1| 0| 0| 1| 0| 0| 0| 0| 0| 0| 0| 0| 0| 0| based   true historic figure  ayothaya era  film depicts  life  yamada nagamasa  japanese adventurer  gained considerable influence  thailand  became the
-0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0| lesbian  aspiring actor  aspiring singer  low class marriage  neighborhood community    renowned directors  memorable less  hour long experiences  living  visiting  capital  cuba
+0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|julie  successful magazine columnist opens pandoras box  seeks   anonymous sperm donor  fathered  young son
+1|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0| arizona frank slaytons gang robs  stagecoach  kidnaps ben warrens fianc e prompting warren  pursue slayton
+
 
 
 #### Dev 
+
+Action| Adventure| Animation| Biography| Comedy| Crime| Drama| Family| Fantasy| History| Horror| Music| Musical| Mystery| Romance| Sci-Fi| Sport| Thriller| War| Western| description
+| ------------- |:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|
+0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0| story starts   childish play   brother  sister  continues  huge developments  passing  many difficult barriers  lovely children reach  peak  perfection niaz grows like  grain  blossoms
+0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0| marketing department   pharmaceutical company decides  find  dentist  endorse  brand  toothpaste
+
 
 #### Test 
 | description  |
 | ------------- |
 | high school basketball coach dinah groshardt falls   school secretary carly lumpkin  upsets  entire school   process |
-| mystery adventure involving  young woman holidaying   south  france     threat   killed  |
-|  young man dying  prison brings  family together   fateful visit  proceeds  put  life back together |
+| greedy sailors capture  giant lizard   coast  ireland  sell    london circus   mother shows up  |
+
+#### gold label 
+Action| Adventure| Animation| Biography| Comedy| Crime| Drama| Family| Fantasy| History| Horror| Music| Musical| Mystery| Romance| Sci-Fi| Sport| Thriller| War| Western
+| ------------- |:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:|
+0|0|0|0|1|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0
+0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0
+
+
+
+
 
