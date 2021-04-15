@@ -1,6 +1,6 @@
 Movies Data 
 ------
-The original data comes from IMDb movie, which is the most popular movie website, and it includes each movie's information such as movie plot description, Metastore ratings, reviews, release dates, and many more aspects. The full dataset can be access [this link](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+movies.csv)
+The original data comes from IMDb movie, which is the most popular movie website, and it includes each movie's information such as movie plot description, metastore ratings, reviews, release dates, and many more aspects. The full dataset can be access [this link](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+movies.csv)
 
 Format of the data
 ------
