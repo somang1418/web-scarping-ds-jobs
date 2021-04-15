@@ -4,7 +4,8 @@ The original data comes from IMDb movie, which is the most popular movie website
 
 Format of the data
 ------
-Out of all variables from the movies dataset, we used description and genre columns. We are building a multi-label classification model that detects different genres of movies, which predicts a probability of each genre for each movie. 5 of genres are dropped because each of their contributions is less than 1% of the output label. The dataset has 20 class label outputs (20 genres) for each movie (each class will have 0 or 1 - e.g. present or not present) and 1 column for movie description. 
+Out of all variables from the movies dataset, we used description and genre columns. We built a multi-label classification model that detects different genres of movies, which predicts a probability of each genre for each movie. We used movie descriptions as our input feature and genres as the class label outputs (20 genres).  
+5 of genres were dropped because each of their contribution is less than 1% of the class label. Our dataset has 20 class label outputs for each movie (each class will have 0 or 1 - e.g. present or not present) and 1 column for movie description. 
 
 Train/Dev/Test split 
 ------
@@ -43,7 +44,7 @@ Action| Adventure| Animation| Biography| Comedy| Crime| Drama| Family| Fantasy| 
 | high school basketball coach dinah groshardt falls   school secretary carly lumpkin  upsets  entire school   process |
 | greedy sailors capture  giant lizard   coast  ireland  sell    london circus   mother shows up  |
 
-#### gold label 
+#### Test Gold Label 
 Action| Adventure| Animation| Biography| Comedy| Crime| Drama| Family| Fantasy| History| Horror| Music| Musical| Mystery| Romance| Sci-Fi| Sport| Thriller| War| Western
 | ------------- |:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:| -----:|:-------------:|
 0|0|0|0|1|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0
