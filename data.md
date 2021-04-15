@@ -1,7 +1,20 @@
+Movies Data 
+------
+The original data comes from IMDb movie, which is the most popular movie website, and it includes each movie's information such as movie plot description, Metastore ratings, reviews, release dates, and many more aspects. The full dataset can be access [this link](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+movies.csv)
 
-# Movies Data 
+Format of the data
+------
+Out of all variables from the movies dataset, we used description and genre columns. We are building a multi-label classification model that detects different genres of movies, which predicts a probability of each genre for each movie. 5 of genres are dropped because each of their contributions is less than 1% of the output label. The dataset has 20 class label outputs (20 genres) for each movie (each class will have 0 or 1 - e.g. present or not present) and 1 column for movie description. 
 
-The original data comes from IMDb movie, which is the most popular movie website, and it includes each movie's information such as movie plot description, Metastore ratings, reviews, release dates, and many more aspects. 
+Train/Dev/Test split 
+------
+After preprocessing the data, we split the movies into Train/Dev/Test (80%/10%/10%). 
+Data| Shape|
+| ------ |:---:|
+Train | 66455 rows, 21 columns |
+Dev | 8307 rows, 21 columns |
+Test | 8307 rows, 1 columns |
+Test_Gold_Label | 8307 rows, 1 columns |
 
 
 Example of the data 
